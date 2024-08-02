@@ -1,0 +1,9 @@
+<svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Algerian&display=swap');
+    .algerian-font {
+      font-family: 'Algerian', serif;
+    }
+  </style>
+  <text x="10" y="60" class="algerian-font" font-size="50" fill="black">HISMAN</text>
+</svg>

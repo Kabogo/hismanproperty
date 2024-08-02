@@ -1,0 +1,323 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<!-- Mirrored from html.bdevs.net/reallow-prv/app-invoice-preview.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jul 2024 23:29:34 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Invoice Preview</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="assets/css/plugins/chosen.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/dropzone.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome-pro.css">
+    <link rel="stylesheet" href="assets/css/vendor/icomoon.css">
+    <link rel="stylesheet" href="assets/css/vendor/spacing.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <!-- Pre loader start -->
+    <div class="preloader">
+        <div class='loader'>
+            <div class='circle'></div>
+            <div class='circle'></div>
+            <div class='circle'></div>
+            <div class='circle'></div>
+            <div class='circle'></div>
+        </div>
+    </div>
+    <!-- Pre loader end -->
+
+    <!-- Cursor Animation -->
+    <div class="cursor1"></div>
+
+    <!-- Body main wrapper start -->
+    <div class="app-page-body">
+
+        <!-- app header start -->
+        <header class="app-header">
+            <div class="app-header-inner">
+                <div class="app-header-left">
+                    <div class="reallow-toggle-btn">
+                        <a id="sidebarActive" class="app-header-toggle" href="javascript:void(0)">
+                            <div class="bar-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <h3 class="app-header-title d-none d-sm-block">Hello Jhon</h3>
+                </div>
+                <div class="app-header-right">
+                    <div class="app-header-input p-relative d-none d-xl-block">
+                        <div class="form-input">
+                            <input type="text" placeholder="Search Here . . .">
+                        </div>
+                        <button><i class="fa-sharp fa-light fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="app-header-admin p-relative">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="admin-wrapper">
+                            <span class="admin-thumb">
+                                <img class="avatar-sm" src="assets/images/agent/agent-01.png" alt="image">
+                            </span>
+                                <span class="admin-meta">
+                                <span class="admin-meta-name">Jhon Smith</span>
+                                <span class="status">online</span>
+                                </span>
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- app header end -->
+
+        <!-- app-sidebar start -->
+        <div class="reallow-sidebar">
+            <div class="sidebar-logo-wrap d-flex justify-content-between align-items-center">
+                <div class="logo-details">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo-black.svg" alt="logo not found">
+                    </a>
+                </div>
+            </div>
+            <div class="reallow-sidebar-inner">
+                <div class="sidebar-nav">
+                    <ul>
+                        <li><a href="dashboard.html"><span><i class="fa-sharp fa-light fa-table-columns"></i></span>Dashboard</a></li>
+                        <li><a href="my-property.html"><span><i class="fa-sharp fa-light fa-house-building"></i></span>My Property</a></li>
+                        <li><a href="my-property-card.html"><span><i class="fa-sharp fa-light fa-building"></i></span>Property Card</a></li>
+                        <li><a href="property-add.html"><span><i class="fa-sharp fa-light fa-building-circle-arrow-right"></i></span>Add Property</a></li>
+                        <li><a href="property-edit.html"><span><i class="fa-sharp fa-light fa-building-circle-exclamation"></i></span>Property Edit</a></li>
+                        <li><a href="app-invoice.html"><span><i class="fa-sharp fa-light fa-file-lines"></i></span>Invoices List</a></li>
+                        <li><a href="app-invoice-preview.html"><span><i class="fa-sharp fa-light fa-receipt"></i></span>Invoices Preview</a></li>
+                        <li><a href="favorite.html"><span><i class="fa-sharp fa-light fa-bookmark"></i></span>Favorites</a></li>
+                        <li><a href="reviews.html"><span><i class="fa-sharp fa-light fa-message-lines"></i></span>Reviews</a></li>
+                        <li><a href="profile.html"><span><i class="fa-sharp fa-light fa-user"></i></span>Profile</a></li>
+                        <li><a href="index.html"><span><i class="fa-sharp fa-light fa-backward"></i></span>Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="app-offcanvas-overlay"></div>
+        <!-- app-sidebar end -->
+
+        <!-- app body content start -->
+        <div class="app-content-wrapper">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-md-10">
+                    <div class="card-wrapper">
+                        <div class="card-top d-flex justify-content-between flex-xl-row flex-sm-row flex-column">
+                            <div class="">
+                                <div class="invoice-logo mb-20">
+                                    <img src="assets/images/logo/logo-black.svg" alt="invoice logo">
+                                </div>
+                                <p class="mb-5">100 Terminal, Fort Lauderdale,</p>
+                                <p class="mb-5">Miami 33315, United States</p>
+                                <p class="mb-5"><a href="https://html.bdevs.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b6d8d7dbd3f6c4d3d7dadad9c198d5d9db">[email&#160;protected]</a></p>
+                                <p class="mb-5">+1(800) 642 7676</p>
+                            </div>
+                            <div>
+                                <div class="mb-10">
+                                    <h5 class="card-heading-title text-muted">Invoice No. #RL-00114</h5>
+                                </div>
+                                <div class="mb-10">
+                                    <span>Date:</span>
+                                    <span>June 8, 2024</span>
+                                </div>
+                                <div class="mb-10">
+                                    <span>Date Due:</span>
+                                    <span>June 8, 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="invoice-divider"></div>
+                        <div class="row g-60 gy-20">
+                            <div class="col-xl-6 col-lg-6 col-sm-6">
+                                <h5 class="card-heading-title">Billing Address</h5>
+                                <div class="invoice-divider"></div>
+                                <div class="invoice-address">
+                                    <h6 class="mb-15 fw-600">Jhon Smith</h6>
+                                    <p>Email: <span><a href="https://html.bdevs.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e28c838f87a29087838e8e8d95cc818d8f">[email&#160;protected]</a></span> </p>
+                                    <p>Address: <span>100 Terminal, Fort Lauderdale, Miami 33315, United States</span></p>
+                                    <p>Phone: <span>+1(800) 642 7676</span></p>
+                                    <p>Fax: <span>+1(800) 642 7676</span> </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-sm-6">
+                                <h5 class="card-heading-title">Shipping Address</h5>
+                                <div class="invoice-divider"></div>
+                                <div class="invoice-address">
+                                    <h6 class="mb-15 fw-600">Jhon Smith</h6>
+                                    <p>Email: <span><a href="https://html.bdevs.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ef0fff3fbdeecfbfff2f2f1e9b0fdf1f3">[email&#160;protected]</a></span> </p>
+                                    <p>Address: <span>100 Terminal, Fort Lauderdale, Miami 33315, United States</span></p>
+                                    <p>Phone: <span>+1(800) 642 7676</span></p>
+                                    <p>Fax: <span>+1(800) 642 7676</span> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="invoice-divider"></div>
+                        <div class="property-table-wrapper">
+                            <div class="table-responsive">
+                                <table class="table table-borderless table-nowrap align-middle mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" style="width: 50px;">#</th>
+                                            <th scope="col">Product Details</th>
+                                            <th scope="col" style="width: 50px;">Rate</th>
+                                            <th scope="col" style="width: 50px;">Quantity</th>
+                                            <th scope="col" style="width: 200px;" class="text-end">Amount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">01</th>
+                                            <td class="text-start">
+                                                <span class="label-color fw-500">Apple MacBook Pro 14-Inch M3 Pro Chip</span>
+                                                <p class="mb-0">Color: Space Gray &amp; RAM/Storage: 18GB/1TB SSD</p>
+                                            </td>
+                                            <td>$1499.00</td>
+                                            <td>01</td>
+                                            <td class="text-end">$1499.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">02</th>
+                                            <td class="text-start">
+                                                <span class="label-color fw-500">iPhone 16 Pro Max</span>
+                                                <p class="mb-0">Color: Space Black &amp; RAM/Storage: 12GB/2TB SSD </p>
+                                            </td>
+                                            <td>$1999.00</td>
+                                            <td>01</td>
+                                            <td class="text-end">$1999.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">03</th>
+                                            <td class="text-start">
+                                                <span class="label-color fw-500">Sony DCD-XB100 Wireless Bluetooth Portable Speaker</span>
+                                                <p class="mb-0">Extra-Durable IP67 Waterproof & Dustproof, 16 Hour
+                                                    Battery</p>
+                                            </td>
+                                            <td>$58.59</td>
+                                            <td>02</td>
+                                            <td class="text-end">$117.18</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">04</th>
+                                            <td class="text-start">
+                                                <span class="label-color fw-500">12 Cup Programmable Drip Coffee Maker</span>
+                                                <p class="mb-0">Color: Black, Programmable, Removable Tank, Auto Clean
+                                                    Function, Water Filter.</p>
+                                            </td>
+                                            <td>$119.50</td>
+                                            <td>01</td>
+                                            <td class="text-end">$119.50</td>
+                                        </tr>
+                                        <tr class="border-top">
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-end">Total: $3461.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="invoice-divider mt-0"></div>
+                        <div class="invoice-payment-details">
+                            <h5 class="card-heading-title mb-15">Payment Details:</h5>
+                            <p class="text-muted">Payment Method: <span>Amex</span></p>
+                            <p class="text-muted">Card Holder: <span>Jhon Smith</span></p>
+                            <p class="text-muted">Card Number: <span>3456 xxxx xxxx 1234</span></p>
+                            <p class="text-muted">Total Amount: <span>$3461.00</span></p>
+                        </div>
+                        <div class="invoice-divider"></div>
+                        <div class="d-flex flex-wrap gap-10 justify-content-lg-end">
+                            <a href="#" class="bd-btn btn-style btn-hover-x hover-black btn-xs"><i
+                           class="fa-sharp fa-regular fa-eye"></i>Print</a>
+                            <a href="#" class="bd-btn btn-style btn-hover-x hover-black btn-xs"><i
+                           class="fa-sharp fa-light fa-floppy-disk"></i>
+                                Save</a>
+                            <a href="#" class="bd-btn btn-style btn-hover-x hover-black btn-xs"><i
+                           class="fa-light fa-paper-plane"></i> Send</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- app body content end -->
+
+        <!-- footer area start -->
+        <footer class="footer">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card__footer d-flex justify-content-center">
+                        <p>Copyright © <span id="year">2024</span> <span class="text-black">Reallow.</span> Designed with by
+                            <a href="https://themeforest.net/user/bdevs" target="_blank">Bdevs</a> All rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+    </div>
+    <!-- Body main wrapper end -->
+
+    <!-- Backtotop start -->
+    <a href="#" data-target="html" class="back-to-target back-to-top">
+        <span class="back-to-top-text">back top</span>
+        <span class="back-to-top-wrapper"><span class="back-to-top-inner" style="width: 4.05654%;"></span></span>
+    </a>
+    <!-- Backtotop end -->
+
+    <!-- JS here -->
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/meanmenu.min.js"></script>
+    <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/vendor/magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendor/purecounter.js"></script>
+    <script src="assets/js/plugins/nouislider.min.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <script src="assets/js/plugins/ScrollTrigger.min.js"></script>
+    <script src="assets/js/plugins/SplitText.min.js"></script>
+    <script src="assets/js/plugins/gsap.min.js"></script>
+    <script src="assets/js/plugins/bd-cursor.js"></script>
+    <script src="assets/js/plugins/jarallax.min.js"></script>
+    <script src="assets/js/plugins/dropzone.min.js"></script>
+    <script src="assets/js/plugins/tinymce.min.js"></script>
+    <script src="assets/js/plugins/apexcharts.min.js"></script>
+    <script src="assets/js/vendor/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from html.bdevs.net/reallow-prv/app-invoice-preview.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jul 2024 23:29:34 GMT -->
+</html>

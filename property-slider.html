@@ -1,0 +1,728 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<!-- Mirrored from html.bdevs.net/reallow-prv/property-slider.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jul 2024 23:28:31 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Property Slider || Reallow Real Estate HTML5 Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/chosen.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome-pro.css">
+    <link rel="stylesheet" href="assets/css/vendor/icomoon.css">
+    <link rel="stylesheet" href="assets/css/vendor/spacing.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+
+
+<body>
+
+    <!-- Pre loader start -->
+    <div class="preloader">
+        <div class='loader'>
+            <div class='circle'></div>
+            <div class='circle'></div>
+            <div class='circle'></div>
+            <div class='circle'></div>
+            <div class='circle'></div>
+        </div>
+    </div>
+    <!-- Pre loader end -->
+    <!-- Cursor Animation -->
+    <div class="cursor1"></div>
+
+    <!-- Back to top start -->
+
+    <a href="#" data-target="html" class="back-to-target back-to-top">
+        <span class="back-to-top-text">back top</span>
+        <span class="back-to-top-wrapper"><span class="back-to-top-inner" style="width: 4.05654%;"></span></span>
+    </a>
+
+    <!-- Back to top end -->
+
+    <!-- Offcanvas area start -->
+    <div class="fix">
+        <div class="offcanvas-area">
+            <div class="offcanvas-wrapper">
+                <div class="offcanvas-content">
+                    <div class="offcanvas-top d-flex justify-content-between align-items-center mb-25">
+                        <div class="offcanvas-logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo/logo-black.svg" alt="logo not found">
+                            </a>
+                        </div>
+                        <div class="offcanvas-close">
+                            <button class="offcanvas-close-icon animation--flip">
+                                <span class="offcanvas-m-lines">
+                                <span class="offcanvas-m-line line--1"></span><span
+                                    class="offcanvas-m-line line--2"></span><span
+                                    class="offcanvas-m-line line--3"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="offcanvas-search mb-0">
+                        <form action="#">
+                            <input type="text" name="offcanvasSearch" placeholder="Search here">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <div class="mobile-menu fix mb-25"></div>
+                    <div class="offcanvas-about d-none d-lg-block mb-25">
+                        <h4 class="offcanvas-title-meta">About Reallow</h4>
+                        <p>The Property of real estate where you can embark on a journey to discover your perfect lifestyle
+                            home and floors and countertops space.</p>
+                    </div>
+                    <div class="offcanvas-contact mb-25">
+                        <h4 class="offcanvas-title-meta">Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center gap-10">
+                                <div class="offcanvas-contact-icon">
+                                    <a target="_blank" href="#">
+                                        <i class="fal fa-map-marker-alt"></i></a>
+                                </div>
+                                <div class="offcanvas-contact-text">
+                                    <a target="_blank" href="#">1426 Center StreetBend, 97702, California, USA</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center gap-10">
+                                <div class="offcanvas-contact-icon">
+                                    <a href="tel:+415864872899"><i class="far fa-phone"></i></a>
+                                </div>
+                                <div class="offcanvas-contact-text">
+                                    <a href="tel:+415864872899">+415-864-8728-99</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center gap-10">
+                                <div class="offcanvas-contact-icon">
+                                    <a href="https://html.bdevs.net/cdn-cgi/l/email-protection#b0c3c5c0c0dfc2c4f0e2d5d1dcdcdfc79ed3dfdd"><i class="fal fa-envelope"></i></a>
+                                </div>
+                                <div class="offcanvas-contact-text">
+                                    <a href="https://html.bdevs.net/cdn-cgi/l/email-protection#1764626767786563574572767b7b78603974787a"><span class="__cf_email__" data-cfemail="added8ddddc2dfd9edffc8ccc1c1c2da83cec2c0">[email&#160;protected]</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="offcanvas-btn mb-25">
+                        <h4 class="offcanvas-title-meta">Account</h4>
+                        <div class="header-btn-wrap gap-10">
+                            <a class="bd-btn btn-style text-btn" href="sign-in.html">Log In</a>
+                            <a class="bd-btn btn-style text-btn" href="contact.html">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="offcanvas-social">
+                        <h4 class="offcanvas-title-meta">Subscribe & Follow</h4>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas-overlay"></div>
+    <div class="offcanvas-overlay-white"></div>
+    <!-- Offcanvas area start -->
+
+    <!-- Header area start -->
+    <header>
+        <div class="header-area header-style-two header-transparent" id="header-sticky">
+            <div class="header-inner">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img class="logo-white" src="assets/images/logo/logo-white.svg" alt="logo not found">
+                        <img class="logo-black" src="assets/images/logo/logo-black.svg" alt="logo not found">
+                    </a>
+                </div>
+                <div class="header-menu">
+                    <nav class="bd-main-menu menu-is-white" id="mobile-menu">
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="#">Home</a>
+                                <ul class="dp-menu">
+                                    <li><a href="home-one.html">home One</a></li>
+                                    <li><a href="home-two.html">home Two</a></li>
+                                    <li><a href="home-three.html">home three</a></li>
+                                    <li><a href="home-slider.html">Home Slider</a></li>
+                                    <li><a href="property-slider.html">Property Slider</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-mega-menu">
+                                <a href="#">Pages</a>
+                                <ul class="mega-menu mega-style-two">
+                                    <li>
+                                        <a href="#" class="title">Page Layout One</a>
+                                        <ul>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="agent-grid.html">Agent Grid</a></li>
+                                            <li><a href="agent-list.html">Agent List</a></li>
+                                            <li><a href="agent-details.html">Agent Details</a></li>
+                                            <li><a href="services.html">Service</a></li>
+                                            <li><a href="services-details.html">Services Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="title">Page Layout Two</a>
+                                        <ul>
+                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="faq.html">FAQs</a></li>
+                                            <li><a href="order.html">Order</a></li>
+                                            <li><a href="error-page.html">Error 404</a></li>
+                                            <li><a href="privacy-policy.html">Privacy & Policy</a></li>
+                                            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="title">Page Layout Three</a>
+                                        <ul>
+                                            <li><a href="shop.html">Shop</a></li>
+                                            <li><a href="shop-v2.html">Shop V2</a></li>
+                                            <li><a href="shop-details.html">Shop Details</a></li>
+                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="title">Page Layout Four</a>
+                                        <ul>
+                                            <li><a href="testimonial.html">Testimonial</a></li>
+                                            <li><a href="sign-in.html">Login</a></li>
+                                            <li><a href="sign-up.html">Register</a></li>
+                                            <li><a href="otp.html">OTP</a></li>
+                                            <li><a href="forgot.html">Forgot Password</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-item-has-children">
+                                <a href="#">Property</a>
+                                <ul class="dp-menu">
+                                    <li><a href="property.html">Property</a></li>
+                                    <li><a href="property-left-sidebar.html">Property Left Sidebar</a></li>
+                                    <li><a href="property-right-sidebar.html">Property Right Sidebar</a></li>
+                                    <li><a href="property-no-sidebar.html">Property No Sidebar</a></li>
+                                    <li><a href="property-details.html">Property Details</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-item-has-children">
+                                <a href="#">Blog</a>
+                                <ul class="dp-menu">
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog-grid.html">Blog Grid</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-mega-menu is-menu-none">
+                                <a href="#">Elements</a>
+                                <ul class="mega-menu mega-style-two">
+                                    <li>
+                                        <a href="#" class="title">Elements Layout 01</a>
+                                        <ul>
+                                            <li><a href="style-guide.html">Style Guide</a></li>
+                                            <li><a href="elements-accordion.html">Accordion</a></li>
+                                            <li><a href="elements-about.html">About Us</a></li>
+                                            <li><a href="elements-advancetab.html">Advance Tab</a></li>
+                                            <li><a href="elements-blog.html">Blog</a></li>
+                                            <li><a href="elements-brand.html">Brand</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="title">Elements Layout 02</a>
+                                        <ul>
+                                            <li><a href="elements-breadcrumb.html">Breadcrumb</a></li>
+                                            <li><a href="elements-buttons.html">Button</a></li>
+                                            <li><a href="elements-cta.html">Call To Action</a></li>
+                                            <li><a href="elements-counter.html">Counter</a></li>
+                                            <li><a href="elements-property.html">Property</a></li>
+                                            <li><a href="elements-form.html">Form</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="title">Elements Layout 03</a>
+                                        <ul>
+                                            <li><a href="elements-footer.html">Footer Style</a></li>
+                                            <li><a href="elements-icomoon.html">Icomoon Fonts Icon</a></li>
+                                            <li><a href="elements-pricing.html">Pricing</a></li>
+                                            <li><a href="elements-social.html">Social Share</a></li>
+                                            <li><a href="elements-team.html">Team</a></li>
+                                            <li><a href="elements-testimonial.html">Testimonial</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="title">Elements Layout 04</a>
+                                        <ul>
+                                            <li><a href="elements-why-chose.html">Why Chose Us</a></li>
+                                            <li><a href="elements-service.html">Service</a></li>
+                                            <li><a href="#">More Coming</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-item-has-children">
+                                <a href="#">Dashboard</a>
+                                <ul class="dp-menu">
+                                    <li><a href="dashboard.html">Dashboard</a></li>
+                                    <li><a href="my-property.html">My Property</a></li>
+                                    <li><a href="my-property-card.html">Property Card</a></li>
+                                    <li><a href="property-add.html">Add Property</a></li>
+                                    <li><a href="property-edit.html">Property Edit</a></li>
+                                    <li><a href="app-invoice.html">Invoices List</a></li>
+                                    <li><a href="app-invoice-preview.html">Invoices Preview</a></li>
+                                    <li><a href="favorite.html">Favorites</a></li>
+                                    <li><a href="reviews.html">Reviews</a></li>
+                                    <li><a href="profile.html">Profile</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-item-has-children">
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-right style-two">
+                    <div class="header-info d-none d-md-flex">
+                        <div class="inner-content">
+                            <div class="info">
+                                <a class="link" href="tel:1800234-34-45">1(800) 234-34-45</a>
+                            </div>
+                            <div class="btn-inner">
+                                <a class="bd-half-outline-btn has-white" href="contact.html"><span class="text">Add Property</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-hamburger d-xl-none">
+                        <div class="sidebar-toggle">
+                            <span class="menu-icon"><span></span></span>
+                        </div>
+                    </div>
+                    <!-- for wp -->
+                    <div class="header-hamburger ml-20 d-none">
+                        <button type="button" class="hamburger-btn offcanvas-open-btn">
+                            <span>01</span>
+                            <span>01</span>
+                            <span>01</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header area end -->
+
+    <!-- Body main wrapper start -->
+    <main>
+
+        <!-- slider area start -->
+        <section class="property-slider-area p-relative fix">
+            <div class="swiper propertySliderActivation property-slider-height">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide property-slider-item property-slider-bg d-flex align-items-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="property-slider-wrapper p-relative z-index-1">
+                                        <div class="property-slider-thumb p-relative">
+                                            <img src="assets/images/slider/slider-1.png" alt="">
+                                        </div>
+                                        <div class="property-slider-content">
+                                            <div class="property-slider-subtitle">
+                                                <p>SINGLE HOME</p>
+                                            </div>
+                                            <h3 class="property-slider-title">Apartments</h3>
+                                            <div class="bd-meta">
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-regular fa-bed-front"></i></span><span
+                                          class="title">4 Bad</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-duotone fa-shower"></i></span><span
+                                          class="title">5 Bath</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-regular fa-arrows-maximize"></i></span><span
+                                          class="title">1500 sqft</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-slider-social">
+                            <span>Follow: </span>
+                            <div class="contact-info-social">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide property-slider-item property-slider-bg property-bg-two d-flex align-items-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="property-slider-wrapper p-relative z-index-1">
+                                        <div class="property-slider-thumb p-relative">
+                                            <img src="assets/images/slider/slider-2.png" alt="">
+                                        </div>
+                                        <div class="property-slider-content">
+                                            <div class="property-slider-subtitle">
+                                                <p>OFFICE SPACE</p>
+                                            </div>
+                                            <h3 class="property-slider-title">Cooperatives</h3>
+                                            <div class="bd-meta">
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-light fa-bed-front"></i></span><span
+                                          class="title">6 Room</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-duotone fa-shower"></i></span><span
+                                          class="title">7 Bath</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-regular fa-arrows-maximize"></i></span><span
+                                          class="title">2000 sqft</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-slider-social">
+                            <span>Follow: </span>
+                            <div class="contact-info-social">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide property-slider-item property-slider-bg property-bg-three d-flex align-items-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="property-slider-wrapper p-relative z-index-1">
+                                        <div class="property-slider-thumb p-relative">
+                                            <img src="assets/images/slider/slider-3.png" alt="">
+                                        </div>
+                                        <div class="property-slider-content">
+                                            <div class="property-slider-subtitle">
+                                                <p>APARTMENT</p>
+                                            </div>
+                                            <h3 class="property-slider-title">Garden House</h3>
+                                            <div class="bd-meta">
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-regular fa-bed-front"></i></span><span
+                                          class="title">3 Bad</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-duotone fa-shower"></i></span><span
+                                          class="title">4 Bath</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-regular fa-arrows-maximize"></i></span><span
+                                          class="title">1450 sqft</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-slider-social">
+                            <span>Follow: </span>
+                            <div class="contact-info-social">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide property-slider-item property-slider-bg property-bg-four d-flex align-items-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="property-slider-wrapper p-relative z-index-1">
+                                        <div class="property-slider-thumb p-relative">
+                                            <img src="assets/images/slider/slider-4.png" alt="">
+                                        </div>
+                                        <div class="property-slider-content">
+                                            <div class="property-slider-subtitle">
+                                                <p>REALLOW</p>
+                                            </div>
+                                            <h3 class="property-slider-title">Townhouses</h3>
+                                            <div class="bd-meta">
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-regular fa-bed-front"></i></span><span
+                                          class="title">3 Bad</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-duotone fa-shower"></i></span><span
+                                          class="title">4 Bath</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-regular fa-arrows-maximize"></i></span><span
+                                          class="title">1200 sqft</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-slider-social">
+                            <span>Follow: </span>
+                            <div class="contact-info-social">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide property-slider-item property-slider-bg property-bg-five d-flex align-items-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="property-slider-wrapper p-relative z-index-1">
+                                        <div class="property-slider-thumb p-relative">
+                                            <img src="assets/images/slider/slider-5.png" alt="">
+                                        </div>
+                                        <div class="property-slider-content">
+                                            <div class="property-slider-subtitle">
+                                                <p>DUPLEXES</p>
+                                            </div>
+                                            <h3 class="property-slider-title">Duplexes Home</h3>
+                                            <div class="bd-meta">
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-regular fa-bed-front"></i></span><span
+                                          class="title">5 Bad</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-duotone fa-shower"></i></span><span
+                                          class="title">6 Bath</span>
+                                                </div>
+                                                <div class="meta-item">
+                                                    <span class="icon"><i class="fa-regular fa-arrows-maximize"></i></span><span
+                                          class="title">3000 sqft</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-slider-social">
+                            <span>Follow: </span>
+                            <div class="contact-info-social">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-slider-pagination bd-swiper-fraction"></div>
+                <div class="property-navigation-btn d-flex flex-column d-none d-md-block">
+                    <button class="property-navigation-prev"><i class="fa-regular fa-angle-left"></i></button>
+                    <button class="property-navigation-next"><i class="fa-regular fa-angle-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <!-- slider area end -->
+
+    </main>
+    <!-- Body main wrapper end -->
+
+    <!-- Footer area start -->
+    <footer class="black-bg d-none">
+        <div class="bd-footer-area style-one">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6">
+                            <div class="footer-cta-content">
+                                <h3 class="title">Start your journey with our reallow property</h3>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6">
+                            <div class="footer-btn-wrap text-lg-end">
+                                <a class="bd-btn btn-style btn-hover-x hover-white" href="contact.html"><i class="fa-regular fa-arrow-right-long"></i>Get In Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between g-5">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="footer-widget footer-1-col-1">
+                            <div class="footer-wrapper-content">
+                                <div class="footer-widget-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/logo-white.svg" alt="logo not found">
+                                    </a>
+                                </div>
+                                <div class="footer-contact-info">
+                                    <div class="footer-contact-item">
+                                        <div class="footer-info-icon">
+                                            <span>
+                                    <i class="fa-regular fa-location-dot"></i>
+                                 </span>
+                                        </div>
+                                        <div class="footer-contact-text">
+                                            <span><a href="#">27 Division St, New York</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-contact-item">
+                                        <div class="footer-info-icon">
+                                            <span>
+                                    <i class="fa-regular fa-phone"></i>
+                                 </span>
+                                        </div>
+                                        <div class="footer-contact-text">
+                                            <span><a href="tel:+1(800)123456789">+00 (123) 456 889</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="footer-contact-item">
+                                        <div class="footer-info-icon">
+                                            <span>
+                                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                                 </span>
+                                        </div>
+                                        <div class="footer-contact-text">
+                                            <span><a href="https://html.bdevs.net/cdn-cgi/l/email-protection#1567707479797a625578747c793b767a78"><span class="__cf_email__" data-cfemail="f08295919c9c9f87b09d91999cde939f9d">[email&#160;protected]</span></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bd-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-4">
+                        <div class="footer-widget footer-1-col-2">
+                            <h3 class="footer-widget-title">Category</h3>
+                            <div class="footer-widget-links">
+                                <ul>
+                                    <li class="underline"><a href="#">Vision & Values</a></li>
+                                    <li class="underline"><a href="#">History</a></li>
+                                    <li class="underline"><a href="#">Awards</a></li>
+                                    <li class="underline"><a href="#">Leadership</a></li>
+                                    <li class="underline"><a href="#">Spotlight</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-4">
+                        <div class="footer-widget footer-1-col-3">
+                            <h3 class="footer-widget-title">About us</h3>
+                            <div class="footer-widget-links">
+                                <ul>
+                                    <li class="underline"><a href="#">Sustainability</a></li>
+                                    <li class="underline"><a href="#">Careers</a></li>
+                                    <li class="underline"><a href="#">Media</a></li>
+                                    <li class="underline"><a href="#">Services</a></li>
+                                    <li class="underline"><a href="#">Products</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                        <div class="footer-widget footer-1-col-4">
+                            <div class="footer-google-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60970.02123903755!2d-74.01588829728814!3d40.707092808586985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1712226046538!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright-area style-one include-bg" data-background="assets/images/bg/copy-right-bg.png">
+            <div class="container">
+                <div class="footer-copyright-wrap">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="assets/images/logo/logo-white.svg" alt="footer logo not found">
+                        </a>
+                    </div>
+                    <div class="footer-copyright">
+                        <p class="description underline"> © <span id="year"></span> design by <a href="#">Reallow.</a> All
+                            Right
+                            Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer area end -->
+
+    <!-- JS here -->
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/meanmenu.min.js"></script>
+    <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/vendor/magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendor/purecounter.js"></script>
+    <script src="assets/js/plugins/nouislider.min.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <script src="assets/js/plugins/ScrollTrigger.min.js"></script>
+    <script src="assets/js/plugins/SplitText.min.js"></script>
+    <script src="assets/js/plugins/gsap.min.js"></script>
+    <script src="assets/js/plugins/bd-cursor.js"></script>
+    <script src="assets/js/plugins/jarallax.min.js"></script>
+    <script src="assets/js/plugins/dropzone.min.js"></script>
+    <script src="assets/js/plugins/tinymce.min.js"></script>
+    <script src="assets/js/vendor/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from html.bdevs.net/reallow-prv/property-slider.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jul 2024 23:28:33 GMT -->
+</html>
